@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Channel Twitts</h1>
+<form action="#" th:action="@{/TwitterAplication/userName}"  method="Get">
+    <input name="userName" type="text"  />
+    <input type="submit" />
+</form>
+<h1>Key Word Twitts</h1>
+<form action="#" th:action="@{/TwitterAplication/viewTwitter}"  method="Get">
+    <input name="keyWord" type="text"  />
+    <input type="submit" />
+</form>
+
+</body>
+</html>

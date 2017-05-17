@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Twitter</h1>
+
+<body>
+
+<!--/*@thymesVar id="keyWord" type="Twitter"*/-->
+<tr th:each="message : ${keyWord}">
+    <td th:text="${message}"/>
+    <td>Next Next Next</td>
+</tr>
+
+<p th:each="messageP : ${keyWord}"
+   th:text="${messageP}">A Smoke Test</p>
+
+
+
+</body>
+</body>
+</html>
